@@ -331,6 +331,7 @@
                                             Content="{TemplateBinding PrimaryButtonText}"
                                             IsEnabled="{TemplateBinding IsPrimaryButtonEnabled}"
                                             Style="{TemplateBinding PrimaryButtonStyle}"
+                                            Command="{TemplateBinding PrimaryButtonCommand}"
                                             ElementSoundMode="FocusOnly"
                                             HorizontalAlignment="Stretch" />
                                         <Button
@@ -339,6 +340,7 @@
                                             Content="{TemplateBinding SecondaryButtonText}"
                                             IsEnabled="{TemplateBinding IsSecondaryButtonEnabled}"
                                             Style="{TemplateBinding SecondaryButtonStyle}"
+                                            Command="{TemplateBinding SecondaryButtonCommand}"
                                             ElementSoundMode="FocusOnly"
                                             HorizontalAlignment="Stretch" />
                                         <Button
@@ -347,6 +349,7 @@
                                             Grid.Column="4" 
                                             Content="{TemplateBinding CloseButtonText}"
                                             Style="{TemplateBinding CloseButtonStyle}"
+                                            Command="{TemplateBinding CloseButtonCommand}"
                                             ElementSoundMode="FocusOnly"
                                             HorizontalAlignment="Stretch" />
                                     </Grid>
